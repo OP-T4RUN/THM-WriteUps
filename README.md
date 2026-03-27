@@ -1,4 +1,4 @@
-# 🛡️ THM-Writeups
+# 🛡️ THM-WriteUps
 
 > **TryHackMe room write-ups by [OPT4RUN](https://tryhackme.com/p/OPT4RUN)**
 
@@ -12,13 +12,13 @@ This repository contains my personal write-ups for TryHackMe rooms. Each write-u
 |-------|---------|
 | **Alias** | OPT4RUN |
 | **TryHackMe Profile** | [tryhackme.com/p/OPT4RUN](https://tryhackme.com/p/OPT4RUN) |
-| **GitHub** | [THM-Writeups](https://github.com/OPT4RUN/THM-Writeups) |
+| **GitHub** | [OP-T4RUN/THM-WriteUps](https://github.com/OP-T4RUN/THM-WriteUps) |
 
 ---
 
 ## 📁 Repository Structure
 ```
-THM-Writeups/
+THM-WriteUps/
 │
 ├── README.md                  ← You are here
 │
@@ -26,13 +26,14 @@ THM-Writeups/
 │   ├── README.md              ← Path overview + room index
 │   └── <Room-Name>/
 │       ├── README.md          ← Write-up
-│       └── screenshots/       ← Supporting images (if any)
+│       ├── task2.png          ← Screenshots stored alongside write-up
+│       └── ...
 │
 └── Other/
     ├── README.md
     └── <Room-Name>/
         ├── README.md
-        └── screenshots/
+        └── ...
 ```
 
 ---
@@ -43,7 +44,7 @@ THM-Writeups/
 
 | # | Room | Category | Difficulty | Status |
 |---|------|----------|------------|--------|
-| 1 | *(coming soon)* | — | — | 🔄 In Progress |
+| 1 | [x86 Architecture Overview](SOC-Level-2/x86-Architecture-Overview/README.md) | Malware Analysis | Easy | ✅ |
 
 ---
 
@@ -73,4 +74,4 @@ Do **not** use these techniques on systems you do not have explicit permission t
 
 ---
 
-*Last updated: March 2025*
+*Last updated: March 2026*
