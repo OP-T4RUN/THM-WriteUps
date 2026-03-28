@@ -40,7 +40,7 @@ This task sets the stage. The room is approached from a **malware analysis persp
 
 ## Task 2 — CPU Architecture Overview
 
-![CPU Architecture Overview](task2-01.png)
+![Von Neumann Architecture — CPU components including ALU, Control Unit, Registers, Main Memory (RAM), and I/O Devices](task2-01.png)
 
 The most widely used CPU architecture is derived from the **Von Neumann architecture**, which consists of the following components:
 
@@ -71,7 +71,7 @@ Arithmetic Logical Unit
 
 ## Task 3 — Registers Overview
 
-![Registers Overview](task3-01.png)
+![General Purpose Registers sub-addressing — showing RAX/EAX/AX/AH/AL, RBX/EBX, RCX/ECX, RDX/EDX, RSI/ESI, RDI/EDI, RBP/EBP, RSP/ESP](task3-01.png)
 
 Registers are storage units inside the CPU with the fastest access time of any storage medium. However, due to their limited size, they must be used effectively. There are four types of registers:
 
@@ -169,7 +169,7 @@ Code Segment
 
 ## Task 5 — Memory Overview
 
-![Memory Overview](task5-01.png)
+![Main Memory layout showing four sections from top to bottom — Stack, Heap, Code, and Data](task5-01.png)
 
 When a program is loaded into memory, it does **not** see the full system memory. Instead, it sees an **abstracted view** — only its own allocated portion. This memory is divided into four sections:
 
@@ -203,11 +203,7 @@ Stack
 
 ## Task 6 — Stack Layout
 
-![Stack Layout - Overview](task6-01.png)
-
-![Stack Layout - Challenge](task6-02.png)
-
-![Stack Layout - Flag](task6-03.png)
+![Stack frame diagram showing caller and callee frames — Arguments, Return Address, Saved EBP, and Local Variables with EBP and ESP register pointers](task6-01.png)
 
 The stack operates on a **LIFO (Last In, First Out)** principle. The CPU uses two registers to manage it:
 
@@ -237,6 +233,14 @@ The stack operates on a **LIFO (Last In, First Out)** principle. The CPU uses tw
 3. Stack pointer is restored
 
 > 🔴 **Malware relevance:** Attackers exploit the stack by **overflowing a buffer** to overwrite the **return address** with a malicious address — redirecting execution to their own code. This is the classic **stack-based buffer overflow** technique.
+
+### Static Site Challenge
+
+![THM static site — Stack Layout drag-and-drop challenge showing stack elements to be placed in correct order](task6-02.png)
+
+The challenge presents a drag-and-drop interface where you place stack elements (Arguments, Return Address, Saved EBP, Local Variables) and registers (EBP, ESP) in the correct positions on the stack.
+
+![Stack Layout challenge completed — flag THM{SMASHED_THE_STACK} revealed](task6-03.png)
 
 ### Questions
 
