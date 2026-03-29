@@ -45,6 +45,7 @@ THM-WriteUps/
 | # | Room | Category | Difficulty | Status |
 |---|------|----------|------------|--------|
 | 1 | [x86 Architecture Overview](SOC-Level-2/x86-Architecture-Overview/README.md) | Malware Analysis | Easy | ✅ |
+| 2 | [x86 Assembly Crash Course](SOC-Level-2/x86-Assembly-Crash-Course/README.md) | Malware Analysis | Easy | ✅ |
 
 ---
 
