@@ -1,3 +1,4 @@
+```markdown
 # 🛡️ THM-WriteUps
 
 > **TryHackMe room write-ups by [OPT4RUN](https://tryhackme.com/p/OPT4RUN)**
@@ -46,6 +47,7 @@ THM-WriteUps/
 |---|------|----------|------------|--------|
 | 1 | [x86 Architecture Overview](SOC-Level-2/x86-Architecture-Overview/README.md) | Malware Analysis | Easy | ✅ |
 | 2 | [x86 Assembly Crash Course](SOC-Level-2/x86-Assembly-Crash-Course/README.md) | Malware Analysis | Medium | ✅ |
+| 3 | [Dissecting PE Headers](SOC-Level-2/Dissecting-PE-Headers/README.md) | Malware Analysis | Medium | ✅ |
 
 ---
 
@@ -76,3 +78,4 @@ Do **not** use these techniques on systems you do not have explicit permission t
 ---
 
 *Last updated: March 2026*
+```
