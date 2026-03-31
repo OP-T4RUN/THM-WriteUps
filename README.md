@@ -1,4 +1,3 @@
-```markdown
 # 🛡️ THM-WriteUps
 
 > **TryHackMe room write-ups by [OPT4RUN](https://tryhackme.com/p/OPT4RUN)**
@@ -78,4 +77,3 @@ Do **not** use these techniques on systems you do not have explicit permission t
 ---
 
 *Last updated: March 2026*
-```

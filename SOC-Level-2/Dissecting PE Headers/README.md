@@ -1,4 +1,3 @@
-````markdown
 # Dissecting PE Headers
 
 | Field | Details |
@@ -380,4 +379,3 @@ This room covered the full anatomy of the Windows PE format from a malware analy
 ---
 
 *Write-up by [OPT4RUN](https://tryhackme.com/p/OPT4RUN)*
-````
