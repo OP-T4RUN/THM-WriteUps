@@ -44,10 +44,10 @@ THM-WriteUps/
 
 | # | Room | Category | Difficulty | Status |
 |---|------|----------|------------|--------|
-| 1 | [x86 Architecture Overview](SOC-Level-2/x86-Architecture-Overview/README.md) | Malware Analysis | Easy | ✅ |
-| 2 | [x86 Assembly Crash Course](SOC-Level-2/x86-Assembly-Crash-Course/README.md) | Malware Analysis | Medium | ✅ |
-| 3 | [Dissecting PE Headers](SOC-Level-2/Dissecting-PE-Headers/README.md) | Malware Analysis | Medium | ✅ |
-| 4 | [Basic Static Analysis](SOC-Level-2/Basic-Static-Analysis/README.md) | Malware Analysis | Medium | ✅ |
+| 1 | [x86 Architecture Overview](https://github.com/OP-T4RUN/SOC-Level-2/x86-Architecture-Overview) | Malware Analysis | Easy | ✅ |
+| 2 | [x86 Assembly Crash Course](https://github.com/OP-T4RUN/SOC-Level-2/x86-Assembly-Crash-Course) | Malware Analysis | Medium | ✅ |
+| 3 | [Dissecting PE Headers](https://github.com/OP-T4RUN/SOC-Level-2/Dissecting-PE-Headers) | Malware Analysis | Medium | ✅ |
+| 4 | [Basic Static Analysis](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/SOC-Level-2/Basic-Static-Analysis) | Malware Analysis | Medium | ✅ |
 
 ---
 
