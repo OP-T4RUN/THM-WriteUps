@@ -49,7 +49,7 @@ THM-WriteUps/
 | 3 | [Dissecting PE Headers](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/SOC-Level-2/Dissecting%20PE%20Headers) | Malware Analysis | Medium | ✅ |
 | 4 | [Basic Static Analysis](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/SOC-Level-2/Basic%20Static%20Analysis) | Malware Analysis | Medium | ✅ |
 | 5 | [MalBuster](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/SOC-Level-2/MalBuster) | Malware Analysis | Medium | ✅ |
-| 6 | [Advanced Static Analysis](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/SOC-Level-2/Advanced-Static-Analysis) | Malware Analysis | Medium | ✅ |
+| 6 | [Advanced Static Analysis](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/SOC-Level-2/Advanced%20Static%20Analysis) | Malware Analysis | Medium | ✅ |
 
 ---
 
