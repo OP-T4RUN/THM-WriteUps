@@ -53,6 +53,7 @@ THM-WriteUps/
 | 7 | [Basic Dynamic Analysis](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/SOC-Level-2/Basic%20Dynamic%20Analysis) | Malware Analysis | Medium | ✅ |
 | 8 | [Dynamic Analysis: Debugging](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/SOC-Level-2/Dynamic%20Analysis-Debugging) | Malware Analysis | Medium | ✅ |
 | 9 | [Anti-Reverse Engineering](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/SOC-Level-2/Anti-Reverse%20Engineering) | Malware Analysis | Medium | ✅ |
+| 10 | [MalDoc-Static Analysis](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/SOC-Level-2/MalDoc-Static%20Analysis) | Malware Analysis | Medium | ✅ |
 
 ---
 
