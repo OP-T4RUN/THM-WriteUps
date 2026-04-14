@@ -29,6 +29,13 @@ THM-WriteUps/
 │       ├── task2.png          ← Screenshots stored alongside write-up
 │       └── ...
 │
+├── Advanced-Endpoint-Investigations/
+│   ├── README.md              ← Path overview + room index
+│   └── <Room-Name>/
+│       ├── README.md          ← Write-up
+│       ├── task2-01.png       ← Screenshots stored alongside write-up
+│       └── ...
+│
 └── Other/
     ├── README.md
     └── <Room-Name>/
@@ -40,7 +47,7 @@ THM-WriteUps/
 
 ## 🗺️ Write-Up Index
 
-### 🔵 SOC Level 2 Path
+### 🔵 SOC Level 2 Path ✅
 
 | # | Room | Category | Difficulty | Status |
 |---|------|----------|------------|--------|
@@ -53,8 +60,18 @@ THM-WriteUps/
 | 7 | [Basic Dynamic Analysis](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/SOC-Level-2/Basic%20Dynamic%20Analysis) | Malware Analysis | Medium | ✅ |
 | 8 | [Dynamic Analysis: Debugging](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/SOC-Level-2/Dynamic%20Analysis-Debugging) | Malware Analysis | Medium | ✅ |
 | 9 | [Anti-Reverse Engineering](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/SOC-Level-2/Anti-Reverse%20Engineering) | Malware Analysis | Medium | ✅ |
-| 10 | [MalDoc-Static Analysis](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/SOC-Level-2/MalDoc-Static%20Analysis) | Malware Analysis | Medium | ✅ |
+| 10 | [MalDoc: Static Analysis](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/SOC-Level-2/MalDoc-Static%20Analysis) | Malware Analysis | Medium | ✅ |
 | 11 | [CALDERA](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/SOC-Level-2/CALDERA) | Threat Emulation | Hard | ✅ |
+
+---
+
+### 🟢 Advanced Endpoint Investigations Path 🔄
+
+#### File System Analysis
+
+| # | Room | Category | Difficulty | Status |
+|---|------|----------|------------|--------|
+| 1 | [MBR and GPT Analysis](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced-Endpoint-Investigations/MBR-and-GPT-Analysis) | Digital Forensics | Medium | ✅ |
 
 ---
 
