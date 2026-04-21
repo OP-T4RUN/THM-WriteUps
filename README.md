@@ -72,6 +72,7 @@ THM-WriteUps/
 | # | Room | Category | Difficulty | Status |
 |---|------|----------|------------|--------|
 | 1 | [MBR and GPT Analysis](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/MBR%20and%20GPT%20Analysis) | Digital Forensics | Medium | ✅ |
+| 2 | [FAT32 Analysis](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/FAT32%20Analysis) | Digital Forensics | Hard | ✅ |
 
 ---
 
