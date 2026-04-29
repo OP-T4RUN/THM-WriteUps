@@ -76,7 +76,7 @@ THM-WriteUps/
 | 3 | [NTFS Analysis](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/NTFS%20Analysis) | Digital Forensics | Medium | ✅ |
 | 4 | [EXT Analysis](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/EXT%20Analysis) | Digital Forensics | Medium | ✅ |
 | 5 | [File Carving](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/File%20Carving) | Digital Forensics | Medium | ✅ |
-| 6 | [Diskrupt]
+| 6 | [Diskrupt](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Diskrupt) | Digital Forensics | Hard | ✅ |
 ---
 
 ### 🗂️ Other Rooms
