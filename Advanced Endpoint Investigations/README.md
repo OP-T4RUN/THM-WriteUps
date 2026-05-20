@@ -1,0 +1,59 @@
+# 🟢 Advanced Endpoint Investigations Path
+
+> **Write-ups by [OPT4RUN](https://tryhackme.com/p/OPT4RUN)**  
+> Path Link: [TryHackMe — Advanced Endpoint Investigations](https://tryhackme.com/path/outline/advancedendpointinvestigations)
+
+---
+
+## Overview
+
+The **Advanced Endpoint Investigations** path covers deep-dive digital forensics and incident response on endpoints. It builds toward the skills needed to conduct thorough post-compromise investigations — examining file systems at a low level, analyzing Linux endpoints, and reconstructing attacker activity from forensic artefacts.
+
+Key skill areas covered across this path:
+
+- Disk structures: MBR, GPT, partition tables
+- File system internals: FAT32, NTFS, EXT
+- File carving and data recovery from damaged/modified images
+- Linux incident surface: processes, services, persistence, logs, disk artefacts
+- Linux live analysis and log investigation
+
+**Status:** 🔄 In progress
+
+---
+
+## 📋 Room Index
+
+### Module 1 — File System Analysis ✅
+
+| # | Room | Category | Difficulty | Status |
+|---|------|----------|------------|--------|
+| 1 | [MBR and GPT Analysis](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/MBR%20and%20GPT%20Analysis) | Digital Forensics | Medium | ✅ |
+| 2 | [FAT32 Analysis](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/FAT32%20Analysis) | Digital Forensics | Hard | ✅ |
+| 3 | [NTFS Analysis](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/NTFS%20Analysis) | Digital Forensics | Medium | ✅ |
+| 4 | [EXT Analysis](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/EXT%20Analysis) | Digital Forensics | Medium | ✅ |
+| 5 | [File Carving](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/File%20Carving) | Digital Forensics | Medium | ✅ |
+| 6 | [Diskrupt](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Diskrupt) | Digital Forensics | Hard | ✅ |
+
+---
+
+### Module 2 — Linux Endpoint Investigation 🔄
+
+| # | Room | Category | Difficulty | Status |
+|---|------|----------|------------|--------|
+| 1 | [Linux Incident Surface](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Linux%20Incident%20Surface) | Digital Forensics / IR | Easy | ✅ |
+
+---
+
+## 📌 Status Legend
+
+| Icon | Meaning |
+|------|---------|
+| ✅ | Write-up complete |
+| 🔄 | In progress |
+| 🔒 | Room completed, write-up pending |
+
+---
+
+*[← Back to main index](https://github.com/OP-T4RUN/THM-WriteUps)*  
+*Write-ups by [OPT4RUN](https://tryhackme.com/p/OPT4RUN)*  
+*Last updated: May 2026*

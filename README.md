@@ -79,6 +79,15 @@ THM-WriteUps/
 | 6 | [Diskrupt](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Diskrupt) | Digital Forensics | Hard | ✅ |
 ---
 
+#### Module: Linux Endpoint Investigation 🔄 (in progress)
+
+| # | Room | Category | Difficulty | Status |
+|---|------|----------|------------|--------|
+| 1 | [Linux Incident Surface](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Linux%20Incident%20Surface) | Digital Forensics / IR | Easy | ✅ |
+
+---
+
+
 ### 🗂️ Other Rooms
 
 | # | Room | Category | Difficulty | Status |
