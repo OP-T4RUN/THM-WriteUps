@@ -84,6 +84,7 @@ THM-WriteUps/
 | # | Room | Category | Difficulty | Status |
 |---|------|----------|------------|--------|
 | 1 | [Linux Incident Surface](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Linux%20Incident%20Surface) | Digital Forensics / IR | Easy | ✅ |
+| 2 | [Linux Process Analysis](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Linux%20Process%20Analysis) | Digital Forensics / IR | Easy | ✅ |
 
 ---
 
