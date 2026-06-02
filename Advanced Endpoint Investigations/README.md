@@ -36,7 +36,7 @@ Key skill areas covered across this path:
 
 ---
 
-### Module 2 — Linux Endpoint Investigation 🔄
+### Module 2 — Linux Endpoint Investigation ✅
 
 | # | Room | Category | Difficulty | Status |
 |---|------|----------|------------|--------|
@@ -45,6 +45,12 @@ Key skill areas covered across this path:
 | 3 | [Linux Logs Investigations](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Linux%20Logs%20Investigations) | Digital Forensics / IR | Medium | ✅ |
 | 4 | [Linux Live Analysis](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Linux%20Live%20Analysis) | Digital Forensics / IR | Medium | ✅ |
 | 5 | [IronShade](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/IronShade) | Digital Forensics / IR | Medium | ✅ |
+
+---
+
+### Module 3 — Windows Endpoint Investigation 🔄
+| # | Room | Category | Difficulty | Status |
+| 1 | [Windows Incident Surface](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Windows%20Incident%20Surface) | Digital Forensics / IR | Medium | ✅ |
 
 ---
 
@@ -60,4 +66,4 @@ Key skill areas covered across this path:
 
 *[← Back to main index](https://github.com/OP-T4RUN/THM-WriteUps)*  
 *Write-ups by [OPT4RUN](https://tryhackme.com/p/OPT4RUN)*  
-*Last updated: May 2026*
+*Last updated: June 2026*

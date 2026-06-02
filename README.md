@@ -67,7 +67,7 @@ THM-WriteUps/
 
 ### 🟢 Advanced Endpoint Investigations Path 🔄
 
-#### File System Analysis
+#### Module 1 — File System Analysis ✅
 
 | # | Room | Category | Difficulty | Status |
 |---|------|----------|------------|--------|
@@ -79,7 +79,7 @@ THM-WriteUps/
 | 6 | [Diskrupt](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Diskrupt) | Digital Forensics | Hard | ✅ |
 ---
 
-#### Module: Linux Endpoint Investigation ✅ 
+#### Module 2 — Linux Endpoint Investigation ✅ 
 
 | # | Room | Category | Difficulty | Status |
 |---|------|----------|------------|--------|
@@ -88,6 +88,12 @@ THM-WriteUps/
 | 3 | [Linux Logs Investigations](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Linux%20Logs%20Investigations) | Digital Forensics / IR | Medium | ✅ |
 | 4 | [Linux Live Analysis](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Linux%20Live%20Analysis) | Digital Forensics / IR | Medium | ✅ |
 | 5 | [IronShade](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/IronShade) | Digital Forensics / IR | Medium | ✅ |
+
+---
+
+### Module 3 — Windows Endpoint Investigation 🔄
+| # | Room | Category | Difficulty | Status |
+| 1 | [Windows Incident Surface](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Windows%20Incident%20Surface) | Digital Forensics / IR | Medium | ✅ |
 
 ---
 
@@ -118,4 +124,4 @@ Do **not** use these techniques on systems you do not have explicit permission t
 
 ---
 
-*Last updated: April 2026*
+*Last updated: June 2026*
