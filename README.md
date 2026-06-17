@@ -101,6 +101,7 @@ THM-WriteUps/
 | 5 | [Expediting Registry Analysis](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Expediting%20Registry%20Analysis) | Digital Forensics / IR | Medium | ✅ | 
 | 6 | [Windows Applications Forensics](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Windows%20Applications%20Forensics) | Digital Forensics / IR | Medium | ✅ |
 | 7 | [Windows Network Analysis](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Windows%20Network%20Analysis) | Digital Forensics / IR | Easy | ✅ |
+| 8 | [Logless Hunt](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Logless%20Hunt) | Digital Forensics / IR | Medium | ✅ |
 
 ---
 
