@@ -48,7 +48,7 @@ Key skill areas covered across this path:
 
 ---
 
-### Module 3 — Windows Endpoint Investigation 🔄
+### Module 3 — Windows Endpoint Investigation ✅
 | # | Room | Category | Difficulty | Status |
 |---|------|----------|------------|--------|
 | 1 | [Windows Incident Surface](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Windows%20Incident%20Surface) | Digital Forensics / IR | Medium | ✅ |
@@ -60,6 +60,13 @@ Key skill areas covered across this path:
 | 7 | [Windows Network Analysis](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Windows%20Network%20Analysis) | Digital Forensics / IR | Easy | ✅ |
 | 8 | [Logless Hunt](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Logless%20Hunt) | Digital Forensics / IR | Medium | ✅ |
 | 9| [Blizzard](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Blizzard) | Digital Forensics / IR | Medium | ✅ |
+
+---
+
+### Module 4 - macOS Forensics 🔄
+| # | Room | Category | Difficulty | Status |
+|---|------|----------|------------|--------|
+| 1 | [macOS Forensics: The Basics](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/macOS%20Forensics%20The%20Basics) | Digital Forensics / IR | Easy | ✅ |
 
 ---
 
