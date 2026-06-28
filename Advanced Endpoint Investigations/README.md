@@ -16,6 +16,10 @@ Key skill areas covered across this path:
 - File carving and data recovery from damaged/modified images
 - Linux incident surface: processes, services, persistence, logs, disk artefacts
 - Linux live analysis and log investigation
+- Windows forensic artefacts: registry, user accounts, application forensics, network analysis, prefetch, event logs
+- Windows incident response: compromised system triage and log-sparse investigation techniques
+- macOS forensic artefacts: plist files, knowledgeC.db, fseventsd, ASL/Unified Logs, APFS disk image analysis
+- macOS system triage: account activity, evidence of execution, network history, connected device forensics
 
 **Status:** 🔄 In progress
 
@@ -49,6 +53,7 @@ Key skill areas covered across this path:
 ---
 
 ### Module 3 — Windows Endpoint Investigation ✅
+
 | # | Room | Category | Difficulty | Status |
 |---|------|----------|------------|--------|
 | 1 | [Windows Incident Surface](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Windows%20Incident%20Surface) | Digital Forensics / IR | Medium | ✅ |
@@ -59,14 +64,16 @@ Key skill areas covered across this path:
 | 6 | [Windows Applications Forensics](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Windows%20Applications%20Forensics) | Digital Forensics / IR | Medium | ✅ |
 | 7 | [Windows Network Analysis](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Windows%20Network%20Analysis) | Digital Forensics / IR | Easy | ✅ |
 | 8 | [Logless Hunt](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Logless%20Hunt) | Digital Forensics / IR | Medium | ✅ |
-| 9| [Blizzard](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Blizzard) | Digital Forensics / IR | Medium | ✅ |
+| 9 | [Blizzard](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Blizzard) | Digital Forensics / IR | Medium | ✅ |
 
 ---
 
-### Module 4 - macOS Forensics 🔄
+### Module 4 — macOS Forensics 🔄
+
 | # | Room | Category | Difficulty | Status |
 |---|------|----------|------------|--------|
-| 1 | [macOS Forensics: The Basics](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/macOS%20Forensics%20The%20Basics) | Digital Forensics / IR | Easy | ✅ |
+| 1 | [macOS Forensics: The Basics](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/macOS%20Forensics%20The%20Basics) | Digital Forensics | Easy | ✅ |
+| 2 | [macOS Forensics: Artefacts](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/macOS%20Forensics%20Artefacts) | Digital Forensics | Hard | ✅ |
 
 ---
 
