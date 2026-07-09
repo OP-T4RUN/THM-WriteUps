@@ -112,6 +112,7 @@ THM-WriteUps/
 | 1 | [macOS Forensics: The Basics](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/macOS%20Forensics%20The%20Basics) | Digital Forensics / IR | Easy | ✅ |
 | 2 | [macOS Forensics: Artefacts](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/macOS%20Forensics%20Artefacts) | Digital Forensics / IR | Hard | ✅ |
 | 3 | [macOS Forensics: Applications](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/macOS%20Forensics%20Applications) | Digital Forensics / IR | Hard | ✅ |
+| 4| [Mac Hunt](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Mac%20Hunt) | Digital Forensics / IR | Medium | ✅ |
 
 ---
 
@@ -142,4 +143,4 @@ Do **not** use these techniques on systems you do not have explicit permission t
 
 ---
 
-*Last updated: June 2026*
+*Last updated: July 2026*

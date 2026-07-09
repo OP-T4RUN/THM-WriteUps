@@ -72,14 +72,14 @@ Key skill areas covered across this path:
 
 | # | Room | Category | Difficulty | Status |
 |---|------|----------|------------|--------|
-| 1 | [macOS Forensics: The Basics](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/macOS%20Forensics%20The%20Basics) | Digital Forensics | Easy | ✅ |
-| 2 | [macOS Forensics: Artefacts](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/macOS%20Forensics%20Artefacts) | Digital Forensics | Hard | ✅ |
-| 3 | [macOS Forensics: Applications](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/macOS%20Forensics%20Applications) | Digital Forensics | Hard | ✅ |
+| 1 | [macOS Forensics: The Basics](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/macOS%20Forensics%20The%20Basics) | Digital Forensics / IR | Easy | ✅ |
+| 2 | [macOS Forensics: Artefacts](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/macOS%20Forensics%20Artefacts) | Digital Forensics / IR | Hard | ✅ |
+| 3 | [macOS Forensics: Applications](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/macOS%20Forensics%20Applications) | Digital Forensics / IR | Hard | ✅ |
+| 4| [Mac Hunt](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Mac%20Hunt) | Digital Forensics / IR | Medium | ✅ |
 
 ---
 
-## 📌 Status Legend
-
+## 📌 Digital Forensics / IR
 | Icon | Meaning |
 |------|---------|
 | ✅ | Write-up complete |
@@ -90,4 +90,4 @@ Key skill areas covered across this path:
 
 *[← Back to main index](https://github.com/OP-T4RUN/THM-WriteUps)*  
 *Write-ups by [OPT4RUN](https://tryhackme.com/p/OPT4RUN)*  
-*Last updated: June 2026*
+*Last updated: July 2026*
