@@ -106,13 +106,20 @@ THM-WriteUps/
 
 ---
 
-### Module 4 - macOS Forensics 🔄
+### Module 4 - macOS Forensics ✅
 | # | Room | Category | Difficulty | Status |
 |---|------|----------|------------|--------|
 | 1 | [macOS Forensics: The Basics](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/macOS%20Forensics%20The%20Basics) | Digital Forensics / IR | Easy | ✅ |
 | 2 | [macOS Forensics: Artefacts](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/macOS%20Forensics%20Artefacts) | Digital Forensics / IR | Hard | ✅ |
 | 3 | [macOS Forensics: Applications](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/macOS%20Forensics%20Applications) | Digital Forensics / IR | Hard | ✅ |
 | 4| [Mac Hunt](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Mac%20Hunt) | Digital Forensics / IR | Medium | ✅ |
+
+---
+
+### Mobile Analysis 🔄
+| # | Room | Category | Difficulty | Status |
+|---|------|----------|------------|--------|
+| 1 | [Mobile Acquisition](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Mobile%20Acquisition) | Digital Forensics / IR | Easy | ✅ |
 
 ---
 
