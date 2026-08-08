@@ -18,56 +18,103 @@ Lab machine setup; evidence image `Suspicious_device.ad1` located in `Desktop/Ev
 
 ## Task 3 — Android Architecture - An Overview
 
-Covers the four Android architecture layers (Linux Kernel, Native Libraries, Application Framework, Application Layer) and the Android filesystem partition structure (`system/`, `data/`, `sdcard/`, `vendor/`, `dev/proc/sys`).
+Covers the four Android architecture layers (Linux Kernel, Native Libraries, Application Framework, Application Layer).
+
+![Android architecture layers diagram](task3-01.png)
+
+Covers the Android filesystem partition structure (`system/`, `data/`, `sdcard/`, `vendor/`, `dev/proc/sys`).
+
+![Android filesystem layers diagram](task3-02.png)
 
 💡 The `build.prop` file in the `system` partition stores device build metadata, including serial number — a quick artifact for device identification.
 
-![FTK Imager evidence tree](task3-01.png)
-![Android filesystem layers diagram](task3-02.png)
+To examine the evidence image, open FTK Imager and go to File → Add Evidence Item:
+
 ![Add Evidence Item menu in FTK Imager](task3-03.png)
+
+Select the Image File option:
+
 ![Selecting Image File option](task3-04.png)
+
+Select the `Suspicious_device.ad1` file from `/Desktop/Evidence`:
+
 ![Selecting Suspicious_device.ad1](task3-05.png)
+
+Navigate through the loaded evidence to get an overview of the artifacts:
+
 ![Navigating the loaded image in FTK Imager](task3-06.gif)
-![build.prop showing device serial number](task3-07.png)
 
 **Q: Navigate the directories in FTK Imager. Examine the build.prop file found in the system folder. What is the device's serial number?**
 ```
 ABC123456789
 ```
+![build.prop showing device serial number](task3-07.png)
 
 ## Task 4 — Android - Forensic Artifacts
 
 Catalog of key Android forensic artifacts and their locations:
 
-| Artifact | Location |
-|----------|----------|
-| SMS/MMS | `/data/data/com.android.providers.telephony/databases/mmssms.db` |
-| Call Logs | `/data/data/com.android.providers.contacts/databases/calllog.db` |
-| Contacts | `/data/data/com.android.providers.contacts/databases/contacts2.db` |
-| Browser History (Chrome) | `/data/data/com.android.chrome/app_chrome/Default/History` |
-| Location Data | `/data/data/com.google.android.gms/databases/` |
-| Photos/Videos | `/sdcard/DCIM/`, `/sdcard/Pictures/`, `/sdcard/WhatsApp/Media/` |
-| WhatsApp | `/data/data/com.whatsapp/databases/msgstore.db` |
-| App Data | `/data/data/[app.package.name]/` |
-| Accounts/Google Services | `/data/system/users/0/accounts.db`, `/data/data/com.google.android.gms/databases` |
-| Installed Apps | `/data/system/packages.xml` |
+**SMS/MMS & Call Logs** — communications artifacts, crucial for reconstructing conversations and timelines.
 
-🔴 Installed application metadata (`packages.xml`) lists dangerous permissions and install timestamps — directly relevant when hunting for surveillance tools or exfiltration-capable apps.
+Location: `/data/data/com.android.providers.telephony/databases/mmssms.db` (SMS/MMS)
 
 ![mmssms.db location](task4-01.png)
+
+Location: `/data/data/com.android.providers.contacts/databases/calllog.db` (Call Logs)
+
 ![calllog.db location](task4-02.png)
+
+**Contacts & Address Book** — identifies social connections and associates.
+
+Location: `/data/data/com.android.providers.contacts/databases/contacts2.db`
+
 ![contacts2.db location](task4-03.png)
+
+**Browser History** — reveals internet usage habits, search intent, and accessed web services.
+
+Location (Chrome): `/data/data/com.android.chrome/app_chrome/Default/History`
+
 ![Chrome History file location](task4-04.png)
+
+**Location Data** — maps user movements and frequented places.
+
+Location: `/data/data/com.google.android.gms/databases/` (`location.db`, `networklocations.db`, etc.)
+
+**Photos, Videos & Metadata** — provides visual timelines, EXIF geolocation/timestamps.
+
+Location: `/sdcard/DCIM/`, `/sdcard/Pictures/`, `/sdcard/WhatsApp/Media/`
+
 ![WhatsApp media directory](task4-05.png)
+
+**Instant Messaging Apps** — direct evidence of conversations and shared media.
+
+Location: `/data/data/com.whatsapp/databases/msgstore.db`, `/sdcard/WhatsApp/Media/`
+
+**Application Data** — custom logs, usage traces, cached credentials, background activity.
+
+Location: `/data/data/[app.package.name]/` (e.g. `com.instagram.android`, `com.snapchat.android`)
+
 ![Instagram app data directory example](task4-06.png)
+
+**User Accounts & Google Services** — identifies linked identities and syncing/exfiltration vectors.
+
+Location: `/data/system/users/0/accounts.db`, `/data/data/com.google.android.gms/databases`
+
 ![accounts.db location](task4-07.png)
+
+**Installed Applications Information** — app metadata, permissions, install/uninstall timeline.
+
+Location: `/data/system/packages.xml`
+
+🔴 Lists dangerous permissions and install timestamps — directly relevant when hunting for surveillance tools or exfiltration-capable apps.
+
 ![packages.xml content](task4-08.png)
-![Last installed package in packages.xml](task4-09.png)
 
 **Q: Examine the artifact containing information about the device's installed apps. What is the last package installed on this device?**
 ```
 com.sneakcam.capture
 ```
+![Last installed package in packages.xml](task4-09.png)
 
 ## Task 5 — Tools for the Trade
 
@@ -75,106 +122,191 @@ Covers acquisition levels (Logical, File System, Physical) and tooling: ALEAPP, 
 
 ## Task 6 — Unboxing the Artifacts
 
-Manual examination of artifacts via `sqlite3` against the evidence at `Desktop\Evidence\suspicious_device`:
-
-- **SMS/MMS** — `sqlite3 mmssms.db` → `.tables` → `select * from SMS;` (with `.mode line` / `.mode box` display options)
-- **Call Logs** — `sqlite3 calllog.db` → `.tables` → `SELECT * from calls;`
-- **Contacts** — `sqlite3 contacts2.db` → `.tables` → `select * from data;`
-- **Browser History** — `sqlite3 History` → `.tables` → `SELECT * from URLs;`
-- **Bluetooth** — config file at `data\misc\bluedroid` (reviewed as text)
-- **Wi-Fi** — config file at `data\misc\wifi` (reviewed as text)
-
-🔴 Manual artifact-by-artifact review is thorough but time-consuming — sets up the case for automated triage in Task 7.
+Manual examination of artifacts via `sqlite3` against the evidence at `Desktop\Evidence\suspicious_device`.
 
 ![Suspicious_device evidence folder structure](task6-01.png)
+
+**SMS / MMS**
+
+Located at `...\data\data\com.android.providers.telephony\databases\mmssms.db`:
+
 ![mmssms.db file location](task6-02.png)
+
+```
+sqlite3 mmssms.db
+```
+
 ![Opening mmssms.db in sqlite3](task6-03.png)
+
+Run `.tables` to list tables, then `select * from SMS;`:
+
 ![SMS table query output](task6-04.png)
+
+Use `.mode line` to display each column on a separate line:
+
 ![.mode line output](task6-05.png)
+
+Use `.mode box` for a neat tabular format:
+
 ![.mode box output](task6-06.png)
+
+**Call Logs**
+
+Located at `...\data\data\com.android.providers.contacts\databases\calllog.db`:
+
 ![calllog.db file location](task6-07.png)
+
+```
+sqlite3 calllog.db
+```
+
 ![Opening calllog.db in sqlite3](task6-08.png)
+
+Run `.tables`, then `SELECT * from calls;`:
+
 ![calls table query output](task6-09.png)
+
+**Contacts and Address Book**
+
+Load `contacts2.db` from the same `com.android.providers.contacts\databases\` path:
+
 ![Opening contacts2.db in sqlite3](task6-10.png)
+
+Run `.tables`, then `select * from data;`:
+
 ![data table query output showing contacts](task6-11.png)
+
+**Browser History**
+
+Only Chrome artifacts are present in this evidence, meaning it was the only browser installed:
+
 ![Chrome-only browser artifacts present](task6-12.png)
+
+`History.db` located at `...\data\data\com.android.chrome\app_chrome\Default`:
+
 ![History.db file location](task6-13.png)
+
+```
+sqlite3 History
+.tables
+```
+
 ![History.db tables listed](task6-14.png)
+
+Run `SELECT * from URLs;`:
+
 ![URLs table query output](task6-15.png)
+
+**Bluetooth Information**
+
+Config file at `data\misc\bluedroid`, reviewed as text with `find`:
+
 ![Bluetooth config file contents](task6-16.png)
+
+**WIFI Information**
+
+Config file at `data\misc\wifi`:
+
 ![Wi-Fi config file contents](task6-17.png)
-![Flag hidden inside SMS message](task6-18.png)
-![Call log entry with longest duration](task6-19.png)
-![Second-to-last suspicious contact name](task6-20.png)
-![Last suspicious upload-related URL](task6-21.png)
-![Bluetooth device name in configuration](task6-22.png)
+
+🔴 Manual artifact-by-artifact review is thorough but time-consuming — sets up the case for automated triage in Task 7.
 
 **Q: What is the flag hidden inside SMS?**
 ```
 FLAG{MSG_HIDDEN_INTENT}
 ```
+![Flag hidden inside SMS message](task6-18.png)
 
 **Q: In the call logs, which number has the longest call duration?**
 ```
 +14155550011
 ```
+![Call log entry with longest duration](task6-19.png)
 
 **Q: What is the second-to-last suspicious contact name in the list?**
 ```
 Encrypted User
 ```
+![Second-to-last suspicious contact name](task6-20.png)
 
 **Q: Most Chrome searches indicate that the user was looking for sites to upload data. What is the last URL found in the list for a similar purpose?**
 ```
 https://easyupload.io
 ```
+![Last suspicious upload-related URL](task6-21.png)
 
 **Q: What is the name of the Bluetooth device found in the configuration?**
 ```
 Pixel_6_User
 ```
+![Bluetooth device name in configuration](task6-22.png)
 
 ## Task 7 — Triaging with ALEAPP
 
-ALEAPP (Android Logs Events and Protobuf Parser) automates artifact extraction from an Android image/archive, running 30+ plugins and compiling a structured report (Call Logs, Installed Packages, SMS/MMS, Chrome Data, Download History, etc.), invoked via `python aleappGUI.py` against `suspicious_device.zip`.
+ALEAPP (Android Logs Events and Protobuf Parser) automates artifact extraction from an Android image/archive, running 30+ plugins and compiling a structured report.
 
-🔴 ALEAPP surfaced a data-exfiltration-capable package and MMS/download artifacts that were not caught during the manual pass in Task 6 — reinforcing the value of automated triage alongside manual review.
+ALEAPP is located on the Desktop:
 
 ![ALEAPP folder on Desktop](task7-01.png)
+
+Launch the GUI version:
+```
+python aleappGUI.py
+```
 ![ALEAPP GUI launched](task7-02.png)
+
+Select `suspicious_device.zip` from `Desktop/Evidence` as the evidence file, set the output directory, and select all plugins:
+
 ![Selecting suspicious_device.zip as evidence](task7-03.png)
 ![Running plugins against the evidence](task7-04.gif)
+
+**Call Logs** — review for suspicious entries:
+
 ![ALEAPP report - Call Logs](task7-05.png)
 ![ALEAPP report - Call Logs detail](task7-06.png)
+
+**Installed Packages** — hunt for suspicious/exfiltration-capable packages:
+
 ![ALEAPP report - Installed Packages](task7-07.png)
+
+**SMS / MMS Messages** — structured view of message content:
+
 ![ALEAPP report - SMS/MMS Messages](task7-08.png)
+
+**Chrome Data** — search history reveals suspect intent:
+
 ![ALEAPP report - Chrome Data](task7-09.png)
 ![ALEAPP report - Chrome search intent](task7-10.png)
+
+**Download History** — metadata from `downloads.db` at `\data\data\com.android.providers.downloads\databases\`:
+
 ![ALEAPP report - Download History](task7-11.png)
-![Suspicious exfiltration package name](task7-12.png)
-![MMS message referencing MediaFire](task7-13.png)
-![Encrypted User contact email address](task7-14.png)
-![Flag hidden inside downloaded PDF](task7-15.png)
+
+🔴 ALEAPP surfaced a data-exfiltration-capable package and MMS/download artifacts that were not caught during the manual pass in Task 6 — reinforcing the value of automated triage alongside manual review.
 
 **Q: What is the name of the package found that could be used for the data exfiltration?**
 ```
 com.data.exfiltool
 ```
+![Suspicious exfiltration package name](task7-12.png)
 
 **Q: One of the MMS message indicates the website used to send the sensitive file? What is the name of that site?**
 ```
 MediaFire
 ```
+![MMS message referencing MediaFire](task7-13.png)
 
 **Q: In the contacts, what is the email address associated with the suspicious user named "Encrypted User"?**
 ```
 ghost123@tutanota.com
 ```
+![Encrypted User contact email address](task7-14.png)
 
 **Q: A sensitive PDF document was found on the device. Examine the document in the downloads folder. What is the flag hidden inside it?**
 ```
 FLAG{INSIDER_ACCESS_42X9}
 ```
+![Flag hidden inside downloaded PDF](task7-15.png)
 
 ## Task 8 — Framing Questions
 
