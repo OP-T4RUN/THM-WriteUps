@@ -83,6 +83,7 @@ Key skill areas covered across this path:
 | # | Room | Category | Difficulty | Status |
 |---|------|----------|------------|--------|
 | 1 | [Mobile Acquisition](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Mobile%20Acquisition) | Digital Forensics / IR | Easy | ✅ |
+| 2 | [Android Analysis](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Android%20Analysis) | Digital Forensics / IR | Easy | ✅ |
 
 ---
 
@@ -97,4 +98,4 @@ Key skill areas covered across this path:
 
 *[← Back to main index](https://github.com/OP-T4RUN/THM-WriteUps)*  
 *Write-ups by [OPT4RUN](https://tryhackme.com/p/OPT4RUN)*  
-*Last updated: July 2026*
+*Last updated: August 2026*
