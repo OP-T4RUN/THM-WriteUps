@@ -121,6 +121,7 @@ THM-WriteUps/
 |---|------|----------|------------|--------|
 | 1 | [Mobile Acquisition](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Mobile%20Acquisition) | Digital Forensics / IR | Easy | ✅ |
 | 2 | [Android Analysis](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Android%20Analysis) | Digital Forensics / IR | Easy | ✅ |
+| 3| [iOS Analysis](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/iOS%20Analysis) | Digital Forensics / IR | Easy | ✅ |
 
 ---
 
