@@ -7,7 +7,7 @@
 
 ## Overview
 
-The **Advanced Endpoint Investigations** path covers deep-dive digital forensics and incident response on endpoints. It builds toward the skills needed to conduct thorough post-compromise investigations — examining file systems at a low level, analyzing Linux endpoints, and reconstructing attacker activity from forensic artefacts.
+The **Advanced Endpoint Investigations** path covers deep-dive digital forensics and incident response on endpoints. It builds toward the skills needed to conduct thorough post-compromise investigations — examining file systems at a low level, analyzing Linux and Windows endpoints, reconstructing attacker activity from forensic artefacts, extracting evidence from mobile devices, and analyzing volatile memory for threats that never touch disk.
 
 Key skill areas covered across this path:
 
@@ -20,6 +20,8 @@ Key skill areas covered across this path:
 - Windows incident response: compromised system triage and log-sparse investigation techniques
 - macOS forensic artefacts: plist files, knowledgeC.db, fseventsd, ASL/Unified Logs, APFS disk image analysis
 - macOS system triage: account activity, evidence of execution, network history, connected device forensics
+- Mobile forensics: acquisition methods, Android and iOS artefact analysis
+- Memory forensics: RAM structure, memory dump acquisition, and attack fingerprints (DLL injection, process hollowing, fileless malware, credential dumping)
 
 **Status:** 🔄 In progress
 
@@ -79,12 +81,19 @@ Key skill areas covered across this path:
 
 ---
 
-### Mobile Analysis 🔄
+### Module 5 -  Mobile Analysis ✅
 | # | Room | Category | Difficulty | Status |
 |---|------|----------|------------|--------|
 | 1 | [Mobile Acquisition](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Mobile%20Acquisition) | Digital Forensics / IR | Easy | ✅ |
 | 2 | [Android Analysis](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Android%20Analysis) | Digital Forensics / IR | Easy | ✅ |
 | 3| [iOS Analysis](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/iOS%20Analysis) | Digital Forensics / IR | Easy | ✅ |
+
+---
+
+### Module 6 - Memory Analysis 🔄
+| # | Room | Category | Difficulty | Status |
+|---|------|----------|------------|--------|
+| 1 | [Memory Analysis Introduction](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Memory%20Analysis%20Introduction) | Digital Forensics / IR | Easy | ✅ |
 
 ---
 

@@ -116,12 +116,19 @@ THM-WriteUps/
 
 ---
 
-### Mobile Analysis 🔄
+### Module 5 - Mobile Analysis ✅
 | # | Room | Category | Difficulty | Status |
 |---|------|----------|------------|--------|
 | 1 | [Mobile Acquisition](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Mobile%20Acquisition) | Digital Forensics / IR | Easy | ✅ |
 | 2 | [Android Analysis](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Android%20Analysis) | Digital Forensics / IR | Easy | ✅ |
 | 3| [iOS Analysis](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/iOS%20Analysis) | Digital Forensics / IR | Easy | ✅ |
+
+---
+
+### Module 6 - Memory Analysis 🔄
+| # | Room | Category | Difficulty | Status |
+|---|------|----------|------------|--------|
+| 1 | [Memory Analysis Introduction](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Memory%20Analysis%20Introduction) | Digital Forensics / IR | Easy | ✅ |
 
 ---
 
