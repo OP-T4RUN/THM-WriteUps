@@ -94,6 +94,10 @@ Key skill areas covered across this path:
 | # | Room | Category | Difficulty | Status |
 |---|------|----------|------------|--------|
 | 1 | [Memory Analysis Introduction](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Memory%20Analysis%20Introduction) | Digital Forensics / IR | Easy | ✅ |
+| 2 | [Memory Acquisition](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Memory%20Acquisition) | Digital Forensics / IR | Easy | ✅ |
+| 3 | [Volatility Essentials](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Volatility%20Essentials) | Digital Forensics / IR | Medium | ✅ |
+| 4 | [Windows Memory & Processes](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Windows%20Memory%20&%20Processes) | Digital Forensics / IR | Medium | ✅ |
+| 5 | [Windows Memory & User Activity](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Windows%20Memory%20&%20User%20Activity) | Digital Forensics / IR | Medium | ✅ |
 
 ---
 
@@ -108,4 +112,4 @@ Key skill areas covered across this path:
 
 *[← Back to main index](https://github.com/OP-T4RUN/THM-WriteUps)*  
 *Write-ups by [OPT4RUN](https://tryhackme.com/p/OPT4RUN)*  
-*Last updated: August 2026*
+*Last updated: September 2026*
