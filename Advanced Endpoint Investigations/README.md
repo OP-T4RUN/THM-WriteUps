@@ -99,6 +99,7 @@ Key skill areas covered across this path:
 | 4 | [Windows Memory & Processes](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Windows%20Memory%20&%20Processes) | Digital Forensics / IR | Medium | ✅ |
 | 5 | [Windows Memory & User Activity](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Windows%20Memory%20&%20User%20Activity) | Digital Forensics / IR | Medium | ✅ |
 | 6 | [Windows Memory & Network](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Windows%20Memory%20&%20Network) | Digital Forensics / IR | Medium | ✅ |
+| 7 | [Linux Memory Analysis](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Linux%20Memory%20Analysis) | Digital Forensics / IR | Medium | ✅ |
 
 ---
 
