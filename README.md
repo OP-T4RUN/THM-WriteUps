@@ -139,6 +139,13 @@ THM-WriteUps/
 
 ---
 
+### Module 7 - Disk Image Analysis 🔄
+| # | Room | Category | Difficulty | Status |
+|---|------|----------|------------|--------|
+| 1 | [Intro to Cold System Forensics](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Intro%20to%20Cold%20System%20Forensics) | Digital Forensics / IR | Easy | ✅ |
+
+---
+
 
 ### 🗂️ Other Rooms
 
@@ -166,4 +173,4 @@ Do **not** use these techniques on systems you do not have explicit permission t
 
 ---
 
-*Last updated: August 2026*
+*Last updated: October 2026*

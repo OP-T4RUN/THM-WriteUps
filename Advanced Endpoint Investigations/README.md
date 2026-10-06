@@ -7,7 +7,7 @@
 
 ## Overview
 
-The **Advanced Endpoint Investigations** path covers deep-dive digital forensics and incident response on endpoints. It builds toward the skills needed to conduct thorough post-compromise investigations — examining file systems at a low level, analyzing Linux and Windows endpoints, reconstructing attacker activity from forensic artefacts, extracting evidence from mobile devices, and analyzing volatile memory for threats that never touch disk.
+The **Advanced Endpoint Investigations** path covers deep-dive digital forensics and incident response on endpoints. It builds toward the skills needed to conduct thorough post-compromise investigations — examining file systems at a low level, analyzing Linux and Windows endpoints, reconstructing attacker activity from forensic artefacts, extracting evidence from mobile devices, analyzing volatile memory for threats that never touch disk, and acquiring and analyzing disk images from powered-off systems.
 
 Key skill areas covered across this path:
 
@@ -22,6 +22,7 @@ Key skill areas covered across this path:
 - macOS system triage: account activity, evidence of execution, network history, connected device forensics
 - Mobile forensics: acquisition methods, Android and iOS artefact analysis
 - Memory forensics: RAM structure, memory dump acquisition, and attack fingerprints (DLL injection, process hollowing, fileless malware, credential dumping)
+- Cold system forensics: live vs. cold analysis, order of volatility, disk imaging, write blocking, chain of custody, and disk image analysis tooling
 
 **Status:** 🔄 In progress
 
@@ -104,6 +105,13 @@ Key skill areas covered across this path:
 
 ---
 
+### Module 7 - Disk Image Analysis 🔄
+| # | Room | Category | Difficulty | Status |
+|---|------|----------|------------|--------|
+| 1 | [Intro to Cold System Forensics](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Intro%20to%20Cold%20System%20Forensics) | Digital Forensics / IR | Easy | ✅ |
+
+---
+
 ## 📌 Digital Forensics / IR
 | Icon | Meaning |
 |------|---------|
@@ -115,4 +123,4 @@ Key skill areas covered across this path:
 
 *[← Back to main index](https://github.com/OP-T4RUN/THM-WriteUps)*  
 *Write-ups by [OPT4RUN](https://tryhackme.com/p/OPT4RUN)*  
-*Last updated: September 2026*
+*Last updated: October 2026*
