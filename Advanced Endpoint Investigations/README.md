@@ -91,7 +91,7 @@ Key skill areas covered across this path:
 
 ---
 
-### Module 6 - Memory Analysis 🔄
+### Module 6 - Memory Analysis ✅
 | # | Room | Category | Difficulty | Status |
 |---|------|----------|------------|--------|
 | 1 | [Memory Analysis Introduction](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Memory%20Analysis%20Introduction) | Digital Forensics / IR | Easy | ✅ |
