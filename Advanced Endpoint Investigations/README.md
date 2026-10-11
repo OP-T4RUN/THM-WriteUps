@@ -110,6 +110,7 @@ Key skill areas covered across this path:
 |---|------|----------|------------|--------|
 | 1 | [Intro to Cold System Forensics](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Intro%20to%20Cold%20System%20Forensics) | Digital Forensics / IR | Easy | ✅ |
 | 2 | [Forensic Imaging](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Forensic%20Imaging) | Digital Forensics / IR | Easy | ✅ |
+| 3 | [Autopsy](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Autopsy) | Digital Forensics / IR | Easy | ✅ |
 
 
 ---
