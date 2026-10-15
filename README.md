@@ -139,13 +139,14 @@ THM-WriteUps/
 
 ---
 
-### Module 7 - Disk Image Analysis 🔄
+### Module 7 - Disk Image Analysis ✅
 | # | Room | Category | Difficulty | Status |
 |---|------|----------|------------|--------|
 | 1 | [Intro to Cold System Forensics](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Intro%20to%20Cold%20System%20Forensics) | Digital Forensics / IR | Easy | ✅ |
 | 2 | [Forensic Imaging](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Forensic%20Imaging) | Digital Forensics / IR | Easy | ✅ |
 | 3 | [Autopsy](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Autopsy) | Digital Forensics / IR | Easy | ✅ |
 | 4 | [DiskFiltration](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/DiskFiltration) | Digital Forensics / IR | Hard | ✅ |
+| 5| [ExfilNode](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/ExfilNode) | Digital Forensics / IR | Hard | ✅ |
 
 
 ---
