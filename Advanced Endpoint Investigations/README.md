@@ -112,7 +112,7 @@ Key skill areas covered across this path:
 | 2 | [Forensic Imaging](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Forensic%20Imaging) | Digital Forensics / IR | Easy | ✅ |
 | 3 | [Autopsy](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Autopsy) | Digital Forensics / IR | Easy | ✅ |
 | 4 | [DiskFiltration](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/DiskFiltration) | Digital Forensics / IR | Hard | ✅ |
-| 5| [ExfilNode](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/ExfilNode) | Digital Forensics / IR | Hard | ✅ |
+| 5| [ExfilNode](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/ExfilNode) | Digital Forensics / IR | Medium | ✅ |
 
 
 ---
