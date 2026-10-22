@@ -77,9 +77,10 @@ THM-WriteUps/
 | 4 | [EXT Analysis](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/EXT%20Analysis) | Digital Forensics | Medium | ✅ |
 | 5 | [File Carving](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/File%20Carving) | Digital Forensics | Medium | ✅ |
 | 6 | [Diskrupt](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Diskrupt) | Digital Forensics | Hard | ✅ |
+
 ---
 
-#### Module 2 — Linux Endpoint Investigation ✅ 
+#### Module 2 — Linux Endpoint Investigation ✅
 
 | # | Room | Category | Difficulty | Status |
 |---|------|----------|------------|--------|
@@ -91,14 +92,15 @@ THM-WriteUps/
 
 ---
 
-### Module 3 — Windows Endpoint Investigation ✅
+#### Module 3 — Windows Endpoint Investigation ✅
+
 | # | Room | Category | Difficulty | Status |
 |---|------|----------|------------|--------|
 | 1 | [Windows Incident Surface](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Windows%20Incident%20Surface) | Digital Forensics / IR | Medium | ✅ |
 | 2 | [Compromised Windows Analysis](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Compromised%20Windows%20Analysis) | Digital Forensics / IR | Easy | ✅ |
 | 3 | [Windows User Account Forensics](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Windows%20User%20Account%20Forensics) | Digital Forensics / IR | Medium | ✅ |
 | 4 | [Windows User Activity Analysis](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Windows%20User%20Activity%20Analysis) | Digital Forensics / IR | Medium | ✅ |
-| 5 | [Expediting Registry Analysis](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Expediting%20Registry%20Analysis) | Digital Forensics / IR | Medium | ✅ | 
+| 5 | [Expediting Registry Analysis](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Expediting%20Registry%20Analysis) | Digital Forensics / IR | Medium | ✅ |
 | 6 | [Windows Applications Forensics](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Windows%20Applications%20Forensics) | Digital Forensics / IR | Medium | ✅ |
 | 7 | [Windows Network Analysis](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Windows%20Network%20Analysis) | Digital Forensics / IR | Easy | ✅ |
 | 8 | [Logless Hunt](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Logless%20Hunt) | Digital Forensics / IR | Medium | ✅ |
@@ -106,26 +108,29 @@ THM-WriteUps/
 
 ---
 
-### Module 4 - macOS Forensics ✅
+#### Module 4 — macOS Forensics ✅
+
 | # | Room | Category | Difficulty | Status |
 |---|------|----------|------------|--------|
 | 1 | [macOS Forensics: The Basics](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/macOS%20Forensics%20The%20Basics) | Digital Forensics / IR | Easy | ✅ |
 | 2 | [macOS Forensics: Artefacts](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/macOS%20Forensics%20Artefacts) | Digital Forensics / IR | Hard | ✅ |
 | 3 | [macOS Forensics: Applications](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/macOS%20Forensics%20Applications) | Digital Forensics / IR | Hard | ✅ |
-| 4| [Mac Hunt](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Mac%20Hunt) | Digital Forensics / IR | Medium | ✅ |
+| 4 | [Mac Hunt](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Mac%20Hunt) | Digital Forensics / IR | Medium | ✅ |
 
 ---
 
-### Module 5 - Mobile Analysis ✅
+#### Module 5 — Mobile Analysis ✅
+
 | # | Room | Category | Difficulty | Status |
 |---|------|----------|------------|--------|
 | 1 | [Mobile Acquisition](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Mobile%20Acquisition) | Digital Forensics / IR | Easy | ✅ |
 | 2 | [Android Analysis](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Android%20Analysis) | Digital Forensics / IR | Easy | ✅ |
-| 3| [iOS Analysis](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/iOS%20Analysis) | Digital Forensics / IR | Easy | ✅ |
+| 3 | [iOS Analysis](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/iOS%20Analysis) | Digital Forensics / IR | Easy | ✅ |
 
 ---
 
-### Module 6 - Memory Analysis ✅
+#### Module 6 — Memory Analysis ✅
+
 | # | Room | Category | Difficulty | Status |
 |---|------|----------|------------|--------|
 | 1 | [Memory Analysis Introduction](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Memory%20Analysis%20Introduction) | Digital Forensics / IR | Easy | ✅ |
@@ -139,18 +144,25 @@ THM-WriteUps/
 
 ---
 
-### Module 7 - Disk Image Analysis ✅
+#### Module 7 — Disk Image Analysis ✅
+
 | # | Room | Category | Difficulty | Status |
 |---|------|----------|------------|--------|
 | 1 | [Intro to Cold System Forensics](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Intro%20to%20Cold%20System%20Forensics) | Digital Forensics / IR | Easy | ✅ |
 | 2 | [Forensic Imaging](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Forensic%20Imaging) | Digital Forensics / IR | Easy | ✅ |
 | 3 | [Autopsy](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Autopsy) | Digital Forensics / IR | Easy | ✅ |
 | 4 | [DiskFiltration](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/DiskFiltration) | Digital Forensics / IR | Hard | ✅ |
-| 5| [ExfilNode](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/ExfilNode) | Digital Forensics / IR | Medium | ✅ |
-
+| 5 | [ExfilNode](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/ExfilNode) | Digital Forensics / IR | Medium | ✅ |
 
 ---
 
+#### Module 8 — Honeynet Collapse 🔄
+
+| # | Room | Category | Difficulty | Status |
+|---|------|----------|------------|--------|
+| 1 | [Initial Access Pot](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Initial%20Access%20Pot) | Digital Forensics / IR | Hard | ✅ |
+
+---
 
 ### 🗂️ Other Rooms
 

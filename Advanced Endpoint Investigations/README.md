@@ -7,7 +7,7 @@
 
 ## Overview
 
-The **Advanced Endpoint Investigations** path covers deep-dive digital forensics and incident response on endpoints. It builds toward the skills needed to conduct thorough post-compromise investigations — examining file systems at a low level, analyzing Linux and Windows endpoints, reconstructing attacker activity from forensic artefacts, extracting evidence from mobile devices, analyzing volatile memory for threats that never touch disk, and acquiring and analyzing disk images from powered-off systems.
+The **Advanced Endpoint Investigations** path covers deep-dive digital forensics and incident response on endpoints. It builds toward the skills needed to conduct thorough post-compromise investigations — examining file systems at a low level, analyzing Linux and Windows endpoints, reconstructing attacker activity from forensic artefacts, extracting evidence from mobile devices, analyzing volatile memory for threats that never touch disk, acquiring and analyzing disk images from powered-off systems, and reconstructing multi-stage intrusions end to end.
 
 Key skill areas covered across this path:
 
@@ -23,6 +23,7 @@ Key skill areas covered across this path:
 - Mobile forensics: acquisition methods, Android and iOS artefact analysis
 - Memory forensics: RAM structure, memory dump acquisition, and attack fingerprints (DLL injection, process hollowing, fileless malware, credential dumping)
 - Cold system forensics: live vs. cold analysis, order of volatility, disk imaging, write blocking, chain of custody, and disk image analysis tooling
+- Multi-stage intrusion investigation (Honeynet Collapse): tracing initial access on an internet-exposed Linux server through web logs, auditd, shell history and persistence
 
 **Status:** 🔄 In progress
 
@@ -78,20 +79,22 @@ Key skill areas covered across this path:
 | 1 | [macOS Forensics: The Basics](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/macOS%20Forensics%20The%20Basics) | Digital Forensics / IR | Easy | ✅ |
 | 2 | [macOS Forensics: Artefacts](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/macOS%20Forensics%20Artefacts) | Digital Forensics / IR | Hard | ✅ |
 | 3 | [macOS Forensics: Applications](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/macOS%20Forensics%20Applications) | Digital Forensics / IR | Hard | ✅ |
-| 4| [Mac Hunt](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Mac%20Hunt) | Digital Forensics / IR | Medium | ✅ |
+| 4 | [Mac Hunt](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Mac%20Hunt) | Digital Forensics / IR | Medium | ✅ |
 
 ---
 
-### Module 5 -  Mobile Analysis ✅
+### Module 5 — Mobile Analysis ✅
+
 | # | Room | Category | Difficulty | Status |
 |---|------|----------|------------|--------|
 | 1 | [Mobile Acquisition](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Mobile%20Acquisition) | Digital Forensics / IR | Easy | ✅ |
 | 2 | [Android Analysis](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Android%20Analysis) | Digital Forensics / IR | Easy | ✅ |
-| 3| [iOS Analysis](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/iOS%20Analysis) | Digital Forensics / IR | Easy | ✅ |
+| 3 | [iOS Analysis](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/iOS%20Analysis) | Digital Forensics / IR | Easy | ✅ |
 
 ---
 
-### Module 6 - Memory Analysis ✅
+### Module 6 — Memory Analysis ✅
+
 | # | Room | Category | Difficulty | Status |
 |---|------|----------|------------|--------|
 | 1 | [Memory Analysis Introduction](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Memory%20Analysis%20Introduction) | Digital Forensics / IR | Easy | ✅ |
@@ -105,19 +108,27 @@ Key skill areas covered across this path:
 
 ---
 
-### Module 7 - Disk Image Analysis ✅
+### Module 7 — Disk Image Analysis ✅
+
 | # | Room | Category | Difficulty | Status |
 |---|------|----------|------------|--------|
 | 1 | [Intro to Cold System Forensics](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Intro%20to%20Cold%20System%20Forensics) | Digital Forensics / IR | Easy | ✅ |
 | 2 | [Forensic Imaging](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Forensic%20Imaging) | Digital Forensics / IR | Easy | ✅ |
 | 3 | [Autopsy](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Autopsy) | Digital Forensics / IR | Easy | ✅ |
 | 4 | [DiskFiltration](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/DiskFiltration) | Digital Forensics / IR | Hard | ✅ |
-| 5| [ExfilNode](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/ExfilNode) | Digital Forensics / IR | Medium | ✅ |
-
+| 5 | [ExfilNode](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/ExfilNode) | Digital Forensics / IR | Medium | ✅ |
 
 ---
 
-## 📌 Digital Forensics / IR
+### Module 8 — Honeynet Collapse 🔄
+
+| # | Room | Category | Difficulty | Status |
+|---|------|----------|------------|--------|
+| 1 | [Initial Access Pot](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Initial%20Access%20Pot) | Digital Forensics / IR | Hard | ✅ |
+
+---
+
+## 📌 Status Legend
 | Icon | Meaning |
 |------|---------|
 | ✅ | Write-up complete |
