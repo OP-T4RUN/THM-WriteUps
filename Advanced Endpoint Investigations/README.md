@@ -125,6 +125,7 @@ Key skill areas covered across this path:
 | # | Room | Category | Difficulty | Status |
 |---|------|----------|------------|--------|
 | 1 | [Initial Access Pot](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Initial%20Access%20Pot) | Digital Forensics / IR | Hard | ✅ |
+| 2 | [Elevating Movement](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Elevating%20Movement) | Digital Forensics / IR | Hard | ✅ |
 
 ---
 
