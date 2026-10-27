@@ -162,6 +162,7 @@ THM-WriteUps/
 |---|------|----------|------------|--------|
 | 1 | [Initial Access Pot](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Initial%20Access%20Pot) | Digital Forensics / IR | Hard | ✅ |
 | 2 | [Elevating Movement](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Elevating%20Movement) | Digital Forensics / IR | Hard | ✅ |
+| 3 | [Lost in RAMslation](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Lost%20in%20RAMslation) | Digital Forensics / IR | Hard | ✅ |
 
 ---
 
