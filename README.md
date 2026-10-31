@@ -156,7 +156,7 @@ THM-WriteUps/
 
 ---
 
-#### Module 8 — Honeynet Collapse 🔄
+#### Module 8 — Honeynet Collapse ✅
 
 | # | Room | Category | Difficulty | Status |
 |---|------|----------|------------|--------|
@@ -165,6 +165,7 @@ THM-WriteUps/
 | 3 | [Lost in RAMslation](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Lost%20in%20RAMslation) | Digital Forensics / IR | Hard | ✅ |
 | 4 | [CRM Snatch](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/CRM%20Snatch) | Digital Forensics / IR | Hard | ✅ |
 | 5 | [Shock and Silence](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Shock%20and%20Silence) | Digital Forensics / IR | Hard | ✅ |
+| 6 | [The Last Trial](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/The%20Last%20Trial) | Digital Forensics / IR | Hard | ✅ |
 
 ---
 
@@ -194,4 +195,4 @@ Do **not** use these techniques on systems you do not have explicit permission t
 
 ---
 
-*Last updated: October 2026*
+*Last updated: November 2026*

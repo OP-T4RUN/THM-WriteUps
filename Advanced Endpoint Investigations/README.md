@@ -120,7 +120,7 @@ Key skill areas covered across this path:
 
 ---
 
-### Module 8 — Honeynet Collapse 🔄
+### Module 8 — Honeynet Collapse ✅
 
 | # | Room | Category | Difficulty | Status |
 |---|------|----------|------------|--------|
@@ -129,7 +129,7 @@ Key skill areas covered across this path:
 | 3 | [Lost in RAMslation](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Lost%20in%20RAMslation) | Digital Forensics / IR | Hard | ✅ |
 | 4 | [CRM Snatch](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/CRM%20Snatch) | Digital Forensics / IR | Hard | ✅ |
 | 5 | [Shock and Silence](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/Shock%20and%20Silence) | Digital Forensics / IR | Hard | ✅ |
-
+| 6 | [The Last Trial](https://github.com/OP-T4RUN/THM-WriteUps/tree/main/Advanced%20Endpoint%20Investigations/The%20Last%20Trial) | Digital Forensics / IR | Hard | ✅ |
 ---
 
 ## 📌 Status Legend
@@ -143,4 +143,4 @@ Key skill areas covered across this path:
 
 *[← Back to main index](https://github.com/OP-T4RUN/THM-WriteUps)*  
 *Write-ups by [OPT4RUN](https://tryhackme.com/p/OPT4RUN)*  
-*Last updated: October 2026*
+*Last updated: November 2026*
